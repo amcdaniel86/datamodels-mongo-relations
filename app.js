@@ -1,4 +1,8 @@
+Relational DB Practice
+
 // Twitter
+
+
 
 // - users
       username
@@ -58,3 +62,47 @@
           reviews[id] (of reviews)
 
   // - reviews
+          {
+            authorID: ID
+            home: ID
+            content: string
+            
+          }
+
+Spotify
+Users
+Artists
+Songs
+Albums
+Genres
+favorites
+
+Users{
+  favSongs[ids]
+  favArtists[ids]
+  favGenres:[string]
+
+}
+
+
+
+
+
+Artists{
+  genres: [string]
+
+}
+
+
+
+Songs {
+genres: [string]
+
+}
+
+
+Albums {
+  genres: [string]
+
+
+}
